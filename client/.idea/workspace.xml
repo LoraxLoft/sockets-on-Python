@@ -2,28 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d2d173a8-1d2d-4ce2-850d-94812cdf054f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/untitled.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../client2/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../client2/.idea/client2.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../client2/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../client2/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../client2/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../client2/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../client2/client.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../server/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../server/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../server/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../server/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../server/.idea/server.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../server/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../server/server.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logic.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +33,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../server" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.logic">
     <configuration name="client" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="untitled" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -75,8 +55,30 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="logic" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="untitled" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/logic.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.logic" />
         <item itemvalue="Python.client" />
       </list>
     </recent_temporary>
@@ -95,29 +97,33 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="933" y="167" key="FileChooserDialogImpl" timestamp="1610877502150">
+    <state x="933" y="167" key="FileChooserDialogImpl" timestamp="1610970451346">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="933" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1610877502150" />
-    <state width="745" height="210" key="GridCell.Tab.0.bottom" timestamp="1610895450768">
+    <state x="933" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1610970451346" />
+    <state width="745" height="98" key="GridCell.Tab.0.bottom" timestamp="1610970515576">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="745" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1610895450768" />
-    <state width="745" height="210" key="GridCell.Tab.0.center" timestamp="1610895450767">
+    <state width="745" height="98" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1610970515576" />
+    <state width="745" height="98" key="GridCell.Tab.0.center" timestamp="1610970515576">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="745" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1610895450767" />
-    <state width="745" height="210" key="GridCell.Tab.0.left" timestamp="1610895450766">
+    <state width="745" height="98" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1610970515576" />
+    <state width="745" height="98" key="GridCell.Tab.0.left" timestamp="1610970515576">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="745" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1610895450766" />
-    <state width="745" height="210" key="GridCell.Tab.0.right" timestamp="1610895450767">
+    <state width="745" height="98" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1610970515576" />
+    <state width="745" height="98" key="GridCell.Tab.0.right" timestamp="1610970515576">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="745" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1610895450767" />
+    <state width="745" height="98" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1610970515576" />
     <state x="277" y="55" key="SettingsEditor" timestamp="1610876242628">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="277" y="55" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1610876242628" />
+    <state x="88" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1610958648665">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="88" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1610958648665" />
   </component>
 </project>
