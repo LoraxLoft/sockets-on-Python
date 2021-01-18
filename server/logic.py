@@ -2,12 +2,20 @@ vertical_dict = [str(i+1) for i in range(8)]
 gorizontal_dict = [chr(97+i) for i in range(8)]
 
 
+def parse(code):
+    return gorizontal_dict.index(code[0]), vertical_dict.index(code[1])
+
+
 class Checker:
 
     def __init__(self, x, y, color):
         self.x = x
         self.y = y
         self.color = color
+
+    def move(self, x, y):
+        self.x = x
+        self.y = y
 
     def can_move(self, x, y):
         if abs(x-self.x) == 1 and y-self.y == 1 - 2*('w ' == self.color):
@@ -35,8 +43,26 @@ class Field:
         for j in range(1, 8, 2):
             self.field[6][j] = Checker(6, j, 'w ')
 
-    def go(self, x, y, color):
-        pass
+    def go(self, from_code, to_code, turn_color):
+        x_from, y_from = parse(from_code)
+        x_to, y_to = parse(to_code)
+        checker_moved = self.field[x_from][y_from]
+        if not checker_moved:
+            print("There is no checker on this field")
+        elif checker_moved.color != turn_color:
+            print("Its not your turn to go")
+        action = checker_moved.can_move(x_to, y_to)
+        if not action:
+            print("Check cannot go there")
+        elif action == 1:
+            if not self.field[x_to][y_to]:
+                checker_moved.move(x_to, y_to)
+            else:
+                print("Checker can go only to an empty field")
+        else:
+            pass
+
+
 
     def view(self):
         for i in range(8):
